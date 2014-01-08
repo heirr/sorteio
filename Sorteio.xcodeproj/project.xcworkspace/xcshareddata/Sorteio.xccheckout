@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8F11A3F2-F5A2-45F5-8C49-D0187D239367</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Sorteio</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>65CDCC3B-379A-45A5-A0EE-199CD13FD176</key>
+		<string>https://github.com/heirr/sorteio.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Sorteio.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>65CDCC3B-379A-45A5-A0EE-199CD13FD176</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/heirr/sorteio.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>65CDCC3B-379A-45A5-A0EE-199CD13FD176</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>65CDCC3B-379A-45A5-A0EE-199CD13FD176</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sorteio</string>
+		</dict>
+	</array>
+</dict>
+</plist>
