@@ -16,16 +16,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img_title" translatesAutoresizingMaskIntoConstraints="NO" id="01V-KK-y9N">
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgSorteio" translatesAutoresizingMaskIntoConstraints="NO" id="01V-KK-y9N">
                                 <rect key="frame" x="40" y="58" width="240" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yz3-G2-xsd">
                                 <rect key="frame" x="70" y="179" width="180" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="img_dice">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="normal" image="img_dice"/>
+                                <state key="highlighted" image="img_dice_hl"/>
                                 <connections>
                                     <segue destination="iRa-lF-DLr" kind="modal" animates="NO" id="mCy-Bj-wpk"/>
                                 </connections>
@@ -36,6 +35,7 @@
                                 <state key="normal" image="img_names">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <state key="highlighted" image="img_names_hl"/>
                                 <connections>
                                     <segue destination="T32-5B-LNJ" kind="modal" animates="NO" id="li7-SS-Vj0"/>
                                 </connections>
@@ -129,10 +129,12 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MqW-gQ-eKy">
-                                <rect key="frame" x="20" y="20" width="22" height="22"/>
+                                <rect key="frame" x="12" y="20" width="30" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="&lt;"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="&lt;">
+                                    <color key="titleColor" red="0.80000001190000003" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="vXZ-lx-hvc" kind="modal" id="xAO-x7-46J"/>
                                 </connections>
@@ -165,9 +167,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="imgSorteio" width="222" height="68"/>
         <image name="img_dice" width="125" height="125"/>
+        <image name="img_dice_hl" width="125" height="125"/>
         <image name="img_names" width="125" height="125"/>
-        <image name="img_title" width="222" height="68"/>
+        <image name="img_names_hl" width="125" height="125"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
