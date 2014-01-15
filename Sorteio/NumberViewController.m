@@ -13,6 +13,12 @@
 @end
 
 @implementation NumberViewController
+@synthesize tfInicial, tfFinal;
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    [tfInicial resignFirstResponder];
+    [tfFinal resignFirstResponder];
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -33,6 +39,9 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)sortearNumero {
 }
 
 @end

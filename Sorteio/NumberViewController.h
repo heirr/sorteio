@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NumberViewController : UIViewController
+@interface NumberViewController : UIViewController{
+    
+}
+
+@property (nonatomic, retain) IBOutlet UITextField *tfInicial;
+@property (nonatomic, retain) IBOutlet UITextField *tfFinal;
+
+
+- (IBAction)sortearNumero;
+
+
 
 @end
