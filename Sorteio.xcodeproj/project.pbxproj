@@ -465,6 +465,7 @@
 				2886A033187CFCC200A2CCFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2886A034187CFCC200A2CCFB /* Build configuration list for PBXNativeTarget "SorteioTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +474,7 @@
 				2886A036187CFCC200A2CCFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
