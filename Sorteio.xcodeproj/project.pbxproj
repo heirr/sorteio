@@ -21,6 +21,8 @@
 		2886A024187CFCC100A2CCFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2886A006187CFCC100A2CCFB /* UIKit.framework */; };
 		2886A02C187CFCC100A2CCFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2886A02A187CFCC100A2CCFB /* InfoPlist.strings */; };
 		2886A02E187CFCC100A2CCFB /* SorteioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2886A02D187CFCC100A2CCFB /* SorteioTests.m */; };
+		2896DB2D18861BF800AF7EB9 /* NumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2896DB2C18861BF800AF7EB9 /* NumberViewController.m */; };
+		2896DB3018861DF900AF7EB9 /* NameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2896DB2F18861DF900AF7EB9 /* NameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		2886A029187CFCC100A2CCFB /* SorteioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SorteioTests-Info.plist"; sourceTree = "<group>"; };
 		2886A02B187CFCC100A2CCFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2886A02D187CFCC100A2CCFB /* SorteioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SorteioTests.m; sourceTree = "<group>"; };
+		2896DB2B18861BF800AF7EB9 /* NumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberViewController.h; sourceTree = "<group>"; };
+		2896DB2C18861BF800AF7EB9 /* NumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberViewController.m; sourceTree = "<group>"; };
+		2896DB2E18861DF900AF7EB9 /* NameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameViewController.h; sourceTree = "<group>"; };
+		2896DB2F18861DF900AF7EB9 /* NameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,10 @@
 			children = (
 				2886A011187CFCC100A2CCFB /* AppDelegate.h */,
 				2886A012187CFCC100A2CCFB /* AppDelegate.m */,
+				2896DB2E18861DF900AF7EB9 /* NameViewController.h */,
+				2896DB2F18861DF900AF7EB9 /* NameViewController.m */,
+				2896DB2B18861BF800AF7EB9 /* NumberViewController.h */,
+				2896DB2C18861BF800AF7EB9 /* NumberViewController.m */,
 				2886A014187CFCC100A2CCFB /* Main.storyboard */,
 				2886A017187CFCC100A2CCFB /* ViewController.h */,
 				2886A018187CFCC100A2CCFB /* ViewController.m */,
@@ -253,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2886A019187CFCC100A2CCFB /* ViewController.m in Sources */,
+				2896DB2D18861BF800AF7EB9 /* NumberViewController.m in Sources */,
+				2896DB3018861DF900AF7EB9 /* NameViewController.m in Sources */,
 				2886A013187CFCC100A2CCFB /* AppDelegate.m in Sources */,
 				2886A00F187CFCC100A2CCFB /* main.m in Sources */,
 			);
